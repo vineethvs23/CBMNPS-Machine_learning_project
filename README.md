@@ -1,6 +1,6 @@
 # Condition Based Maintainance of Naval Propulsion Systems
 
-##What is Condition based maintainance?
+# What is Condition based maintainance?
 ( This will be a long read,skip to the last paragraph of this section if you're feeling lazy. :) )
 
 In the shipbuilding industry, one of the main objectives of shipwrights companies is to improve the technological quality of their products. For example, they design more efficient hull shapes and propeller geometries,study innovative propulsion systems, and reduce the overall production costs. Recently, many of these companies are evaluating different DA solutions for improving the quality of their products, for monitoring the equipment, and for maintenance purposes as integrative activities to their core business. In fact, ships are already equipped with a network of sensors that collect data for security, diagnostic and monitoring purposes, which DA can directly exploit
@@ -18,7 +18,7 @@ estimation of the components, which is not easy to reach since the actual ship u
 Nevertheless, Condition Based Maintenance (CBM) can be considered as a specification of Preventive Measure, which aims at reducing both the costs of Corrective measure and non-predictive Preventive Measure by relying on the exact decay state of each component and then by efficiently planning its maintenance. Since, in most cases,the decay state of each component cannot be tracked with a sensor, CBM requires a model able to predict it based on other sensors available. Considering the estimated state of decay, it is possible to schedule each component’s replacement before failures occur, maximizing its life cycle, according to the time required for each maintenance and to the geographical location of the ship. As a result, the additional costs of Corrective measure and Preventive Measure can be replaced with the lower ones of equipping the propulsion system with sensors and by collecting, storing, and analyzing these data for the purpose of creating effective predictive DDMs .
 
 
-#How the data has been extracted:
+# How the data has been extracted:
 
 A naval vessel, characterized by a combined diesel-electric and gas propulsion plant,has been exploited to collect such data and show the effectiveness of the proposed approaches. Because of confidentiality constraints with the Navy,the authors used a real-data validated simulator and the dataset has been published for free use through the UCI repository.
 
@@ -32,7 +32,7 @@ The propulsion system behaviour has been described with this parameters:
 - Turbine degradation coefficient kMt. 
 
 
-#Features of each recorded observation:
+# Features of each recorded observation:
 
 - A 16-feature vector containing the GT measures at steady state of the physical asset:
 
@@ -53,16 +53,16 @@ The propulsion system behaviour has been described with this parameters:
     Turbine Injecton Control (TIC) [%]
     Fuel flow (mf) [kg/s]
 
-#There are two targets:
+# There are two targets:
 
 - GT Compressor decay state coefficient
 - GT Turbine decay state coefficient
 
-##Note on data:
+## Note on data:
 - Features are not normalized
 - Each feature vector is a row on the text file
 
-#Installation:
+# Installation:
 
 This project requires python 3.6 or anyother higher versions of python, along with these libraries :
 
