@@ -55,8 +55,8 @@ The propulsion system behaviour has been described with this parameters:
 
 # There are two targets:
 
-- GT Compressor decay state coefficient
-- GT Turbine decay state coefficient
+- GT Compressor decay state coefficient (Target-1)
+- GT Turbine decay state coefficient (Target-2)
 
 ## Note on data:
 - Features are not normalized
