@@ -112,3 +112,8 @@ The MSE observed by using 3-layer neural networks on target-1 :
 The MSE observed by using 3-layer neural networks on target-2 : 
 - sigmoid : 5.768567243163402e-05
 - ReLu: 5.6433232229186774e-05
+
+
+# data in uci
+
+	https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants
