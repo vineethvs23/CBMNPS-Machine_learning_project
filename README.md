@@ -1,5 +1,7 @@
 # Condition Based Maintainance of Naval Propulsion Systems
 
+- As I will be required to find a coefficient value, this will be a regression problem.
+
 # What is Condition based maintainance?
 This will be a long read,skip to the last paragraph of this section if you're feeling lazy.   :) 
 
