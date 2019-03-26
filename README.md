@@ -99,3 +99,16 @@ In a terminal or command window, navigate to the top-level project directory and
 You can change the name of the notebook to whichever notebook you want to open.
 
 This will open the Jupyter Notebook software and project file in your browser.
+
+# My results
+
+The MSE observed by using sklearn and a linear model on target-1 is: 3.452412169406882e-05
+The MSE observed by using sklearn and a linear model on target-2 is: 6.593735348670234e-06
+
+The MSE observed by using 3-layer neural networks on target-1 : 
+- sigmoid : 0.00021465512393468536
+- ReLu: 0.0002719942422377835
+
+The MSE observed by using 3-layer neural networks on target-2 : 
+- sigmoid : 5.768567243163402e-05
+- ReLu: 5.6433232229186774e-05
